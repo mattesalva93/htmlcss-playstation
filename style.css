@@ -7,3 +7,24 @@
 }
 
 /*Navbar*/
+
+
+
+    /*MAIN*/
+
+/*Sezione Returnal*/
+
+.ms_jumbo{
+    background-image: url(img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 675px;
+}
+.ms_fontcolor_white{
+    color: white;
+}
+.ms_returnalsize{
+    width: 50%;
+}
+
