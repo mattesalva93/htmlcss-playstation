@@ -28,3 +28,13 @@
     width: 50%;
 }
 
+
+/*Sezione Returnal n Crash*/
+.ms_imground{
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+}
+.ms_imgbox{
+    height: auto;
+}
