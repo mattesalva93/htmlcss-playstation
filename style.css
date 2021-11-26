@@ -6,6 +6,11 @@
     width: 100%;
 }
 
+.ms_btncolor{
+    background-color: #363636;
+    border:none;
+}
+
 /*Navbar*/
 
 
@@ -19,15 +24,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 675px;
 }
-.ms_fontcolor_white{
+.ms_jumbo_style{
+    margin-top:350px;
     color: white;
 }
-.ms_returnalsize{
-    width: 50%;
-}
-
 
 /*Sezione Returnal n Crash*/
 .ms_imground{
