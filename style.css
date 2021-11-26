@@ -66,3 +66,21 @@
     background-color: #161C3B;
     width: 100%;
 }
+
+    /*FOOTER*/
+
+.ms_footer_background{
+    background-color: #00439C;
+}
+.ms_white_style ul{
+    list-style-type: none;
+}
+.ms_white_style ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+.ms_footer-logo{
+    height: 75px;
+}
+
+
