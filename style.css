@@ -30,8 +30,10 @@
 }
 
 /*Sezione Returnal n Crash*/
-.ms_imground{
+.ms_round{
     border-radius: 15px;
+}
+.ms_img{
     width: 100%;
     height: 100%;
 }
@@ -48,4 +50,9 @@
 }
 .ms_jumbo2_style{
     color:white
+}
+
+/*Sezione nuove uscite*/
+.ms_backgound_jumbo{
+    background-color: #1F1F1F;
 }
