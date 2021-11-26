@@ -3,16 +3,13 @@
 /*Barra nera e logo sony*/
 .ms_header{
     background-color: black;
+    width: 100%;
 }
 
 .ms_btncolor{
     background-color: #363636;
     border:none;
 }
-
-/*Navbar*/
-
-
 
     /*MAIN*/
 
@@ -55,4 +52,11 @@
 /*Sezione nuove uscite*/
 .ms_backgound_jumbo{
     background-color: #1F1F1F;
+    width: 100%;
+}
+
+/*Sezione playstation plus*/
+.ms_psplus{
+    background-color: #BEBCBB;
+    width: 100%;
 }
