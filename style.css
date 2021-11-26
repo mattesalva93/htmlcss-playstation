@@ -18,8 +18,9 @@
 .ms_jumbo{
     background-image: url(img/jumbo-bg.png);
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
+    background-size: cover;
+    width: 100%;
 }
 .ms_jumbo_style{
     margin-top:350px;
