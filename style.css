@@ -39,4 +39,13 @@
     height: auto;
 }
 
-/*Sezione Ps5 e accessori*/
+/*Sezione it takes two*/
+.ms_jumbo2{
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.ms_jumbo2_style{
+    color:white
+}
