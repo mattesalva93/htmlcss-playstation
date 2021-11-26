@@ -45,18 +45,24 @@
     background-size: cover;
     background-position: center;
 }
-.ms_jumbo2_style{
+.ms_white_style{
     color:white
 }
 
 /*Sezione nuove uscite*/
-.ms_backgound_jumbo{
+.ms_backgound_black{
     background-color: #1F1F1F;
     width: 100%;
 }
 
 /*Sezione playstation plus*/
-.ms_psplus{
+.ms_background_psplus{
     background-color: #BEBCBB;
+    width: 100%;
+}
+
+/*Sezione playstation now*/
+.ms_background_psnow{
+    background-color: #161C3B;
     width: 100%;
 }
