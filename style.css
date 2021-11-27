@@ -1,3 +1,11 @@
+    /*REGOLE GENERALI*/
+h1{
+    font-size: 3rem;
+}
+p{
+    font-weight: 600;
+}
+    
     /*HEADER*/
 
 /*Barra nera e logo sony*/
@@ -36,6 +44,7 @@
 }
 .ms_btnstyle{
     width: 20%;
+    margin: 10px 0;
 }
 
 @media (min-width: 1400px) { 
@@ -44,6 +53,7 @@
     }
     .ms_btnstyle{
         width: auto;
+        margin: 0;
     }
 }
 
@@ -78,10 +88,14 @@ input:active, input:focus{
 .ms_jumbo_style{
     color: white;
 }
+.ms_btncolor-orange{
+    background-color: #CD3D0F;
+    border: none;
+}
 
 /*Sezione Returnal n Crash*/
 .ms_round{
-    border-radius: 15px;
+    border-radius: 20px;
 }
 .ms_img{
     width: 100%;
@@ -89,6 +103,16 @@ input:active, input:focus{
 }
 .ms_imgbox{
     height: auto;
+}
+.ms_blueborder{
+    border: 2px solid #0070D1;
+    padding: 3px;
+    box-sizing: content-box;
+}
+.ms_invisible-border{
+    border: 2px solid white;
+    padding: 3px;
+    box-sizing: content-box;
 }
 
 /*Sezione it takes two*/
