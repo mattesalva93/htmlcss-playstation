@@ -173,9 +173,8 @@ input:active, input:focus{
 .ms_white_style ul li a{
     text-decoration: none;
     color: inherit;
+    line-height: 2;
 }
 .ms_footer-logo{
     height: 75px;
 }
-
-
