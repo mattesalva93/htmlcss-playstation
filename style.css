@@ -1,6 +1,9 @@
     /*REGOLE GENERALI*/
 h1{
-    font-size: 3rem;
+    font-size: 2.5rem;
+}
+h5{
+    color: #727272;
 }
 p{
     font-weight: 600;
@@ -110,9 +113,14 @@ input:active, input:focus{
     box-sizing: content-box;
 }
 .ms_invisible-border{
-    border: 2px solid white;
+    border: 2px solid transparent;
     padding: 3px;
     box-sizing: content-box;
+}
+
+/*Sezione PS5 e accessori*/
+.ms_blueline{
+    border-bottom: 2px solid #0070D1;
 }
 
 /*Sezione it takes two*/
@@ -137,11 +145,21 @@ input:active, input:focus{
     background-color: #BEBCBB;
     width: 100%;
 }
+.ms_btncolor-grey{
+    background-color: #D9DADC;
+    color: #0070D1;
+    border: none;
+}
 
 /*Sezione playstation now*/
 .ms_background_psnow{
     background-color: #161C3B;
     width: 100%;
+}
+.ms_btncolor-white{
+    background-color: #F5F5F5;
+    color: black;
+    border: none;
 }
 
     /*FOOTER*/
