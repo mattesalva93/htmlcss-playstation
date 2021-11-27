@@ -11,6 +11,7 @@
     background-color: #363636;
     border:none;
 }
+/*Navbar*/
 .ms_dropdown_toggle::after {
     content:none
 }
@@ -24,8 +25,46 @@
     color: #0070D1;
     margin-left: 0.25rem;
 }
+.ms_borderstyle_navbar{
+    border-color: grey;
+    border-right: 0;
+    border-left: 0;
+    border-radius:0;
+}
+.navbar li{
+    margin-left: 20px;
+}
+.ms_btnstyle{
+    width: 20%;
+}
 
-    /*MAIN*/
+@media (min-width: 1400px) { 
+    .ms_borderstyle_navbar{
+        border: none;
+    }
+    .ms_btnstyle{
+        width: auto;
+    }
+}
+
+.ms_faketextform{
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+}
+.ms_faketextform img{
+    height: 30px;
+    padding: 0 0 5px 5px;
+}
+.ms_faketextform input{
+    width: calc(100% - 43px);
+}
+input:active, input:focus{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+/*MAIN*/
 
 /*Sezione Returnal*/
 
