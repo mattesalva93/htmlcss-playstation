@@ -4,6 +4,7 @@
 .ms_header{
     background-color: black;
     width: 100%;
+    position: fixed;
 }
 
 .ms_btncolor{
@@ -19,11 +20,10 @@
     background-image: url(img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    width: 100%;
+    background-position-y: 116px;
 }
+
 .ms_jumbo_style{
-    margin-top:350px;
     color: white;
 }
 
@@ -43,8 +43,8 @@
 .ms_jumbo2{
     background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
+    background-size: cover;
 }
 .ms_white_style{
     color:white
