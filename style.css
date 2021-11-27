@@ -11,6 +11,19 @@
     background-color: #363636;
     border:none;
 }
+.ms_dropdown_toggle::after {
+    content:none
+}
+.ms_sublink:before{
+    content: "";
+    display: list-item;
+    list-style-type: disc;
+    position: absolute;
+    transform: translateY(50%);
+    font-size: 0.5rem;
+    color: #0070D1;
+    margin-left: 0.25rem;
+}
 
     /*MAIN*/
 
