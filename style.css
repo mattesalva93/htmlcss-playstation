@@ -8,6 +8,9 @@ h5{
 p{
     font-weight: 600;
 }
+.ms_imgbox{
+    cursor: pointer;
+}
     
     /*HEADER*/
 
@@ -16,6 +19,7 @@ p{
     background-color: black;
     width: 100%;
     position: fixed;
+    z-index: 999;
 }
 
 .ms_btncolor{
@@ -101,7 +105,8 @@ input:focus,
 }
 .ms_btncolor-orange{
     background-color: #CD3D0F;
-    border: none;
+    color: white;
+    border: 2px solid #CD3D0F;
 }
 
 /*Sezione Returnal n Crash*/
@@ -129,6 +134,14 @@ input:focus,
 /*Sezione PS5 e accessori*/
 .ms_blueline{
     border-bottom: 2px solid #0070D1;
+}
+.ms_btnblue{
+    background-color: #0070D1;
+    color: white;
+    border: 2px solid #0070D1;
+}
+.ms_opacity-50{
+    opacity: 0.50;
 }
 
 /*Sezione it takes two*/
@@ -167,7 +180,7 @@ input:focus,
 .ms_btncolor-white{
     background-color: #F5F5F5;
     color: black;
-    border: none;
+    border: 2px solid #F5F5F5;
 }
 
     /*FOOTER*/
@@ -189,7 +202,7 @@ input:focus,
 
 
     /*Sezione hover animazioni effetti*/
-    
+
 /*Header*/
 .dropdown-item:hover, 
 .dropdown-item:focus{
@@ -232,4 +245,33 @@ nav a:hover,
 .ms_buttonblack-inset:hover{
     box-shadow: inset 0 0 0 2px white;
     opacity: 0.9;
+}
+
+/*Sezione main*/
+.ms_buttonorange-inset:hover{
+    box-shadow: inset 0 0 0 2px black;
+    opacity: 0.9;
+}
+.ms_animation-up{
+    transition: all 300ms ease-in-out;
+}
+.ms_animation-up:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+.ms_opacity-50{
+    transition: all 0.3s ease-in-out;
+}
+.ms_opacity-50:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.ms_btncolor-grey:hover{
+    color: #0070D1;
+    box-shadow: 0 0 2px 1px #D9DADC;
+}
+.ms_btncolor-white:hover{
+    box-shadow: inset 0 0 0 2px black;
+    opacity: 0.9;
+    color: black;
 }
